@@ -1,0 +1,19 @@
+.calendarBodyWrapper {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.sevenDays {
+    display: flex;
+    justify-content: center;
+    margin: 0 14px;
+    width: 260px;
+    height: 30px;
+    font-size: 17px;
+    color: #EC356A
+}
+.monthSizer {
+   color: #009991;
+}

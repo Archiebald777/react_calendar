@@ -8,7 +8,7 @@ const Month = () => {
   const amountOfWeeks = getWeeksInMonth(currentDay);
   const monthStarter = startOfMonth(currentDay);
   return (
-    <div>
+    <div >
       {new Array(Number([amountOfWeeks])).fill(null).map((_, index) => {
         return <Week useDay={addDays(monthStarter, 7 * index)} />;
       })}

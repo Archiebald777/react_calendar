@@ -1,0 +1,21 @@
+.dayWrapper {
+    display: flex;
+    color: gray;
+    width: 40px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.selectedDay {
+    box-sizing: border-box;
+    
+    
+  
+    overflow: hidden;
+    background: mistyrose;
+    color: #EC356A;
+    max-width: 40px;
+  }
+  .hiddenDays {
+    visibility: hidden;
+  }
